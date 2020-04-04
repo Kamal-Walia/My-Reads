@@ -10,7 +10,7 @@ A bookshelf app that allows to select and categorize books that user have read, 
 
 2. Install dependencies
   ```bash
-  $> cd ./my-reads
+  $> cd ./My-Reads
   $> yarn
   ```
 
