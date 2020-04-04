@@ -32,7 +32,7 @@ class BooksApp extends React.Component {
   updateShelf = (book, shelf) => {
     BooksAPI.update(book, shelf).then((shelves) => {
       book.shelf = shelf;
-      this.setState({shelves});
+      this.setState({ shelves });
     });
   }
 
@@ -57,7 +57,7 @@ class BooksApp extends React.Component {
               shelves={this.state.shelves}
               shelfTypes={this.state.shelfTypes}
             />
-          )}/>
+          )} />
           <Route exact path='/search' render={() => (
             <SearchBooks
               updateShelf={this.updateShelfWithDataReload}
@@ -65,7 +65,7 @@ class BooksApp extends React.Component {
               shelves={this.state.shelves}
               shelfTypes={this.state.shelfTypes}
             />
-          )}/>
+          )} />
         </Switch>
       </div>
     )
