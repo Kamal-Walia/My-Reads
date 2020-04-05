@@ -11,11 +11,18 @@ $> git clone https://github.com/Kamal-Walia/My-Reads.git
 ```
 
 2. Install dependencies
+<<<<<<< HEAD
 
 ```bash
 $> cd ./my-reads
 $> yarn
 ```
+=======
+  ```bash
+  $> cd ./My-Reads
+  $> yarn
+  ```
+>>>>>>> 39c3eead8c7956db7cdb5f24c453f7792077f03f
 
 3. Start server
 
